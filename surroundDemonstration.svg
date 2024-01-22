@@ -2,6 +2,7 @@
      width="230" height="90"
      xmlns="http://www.w3.org/2000/svg">
 
-	<rect x="10" y="10" width="210" height="70" stroke="#FFFF00" stroke-width="4" fill="transparent"/>
+<!--	<rect x="10" y="10" width="210" height="70" stroke="#FFFF00" stroke-width="4" fill="transparent"/> -->
+	<rect x="10" y="10" width="210" height="70" stroke="#FFFF00" stroke-width="2" fill="transparent"/>
 
 </svg>
