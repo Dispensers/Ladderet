@@ -19,7 +19,7 @@ let punterPuzzleSpec = {
 		"This is puzzle number 16, so can you think of 16 5-letter colours?"
 };
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 21,
 	solveBy: "18 Feb",
@@ -28,8 +28,8 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"The World's Number One Diebad: INPUT."
 };
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 26,
 	solveBy: "25 Feb",
@@ -38,7 +38,7 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"\"You say, 'Goodbye' and I say, 'HELLO, HELLO, HELLO'\""
 };
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 31,
