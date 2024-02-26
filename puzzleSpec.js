@@ -29,7 +29,7 @@ let punterPuzzleSpec = {
 		"The World's Number One Diebad: INPUT."
 };
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 26,
 	solveBy: "25 Feb",
@@ -38,25 +38,25 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"\"You say, 'Goodbye' and I say, 'HELLO, HELLO, HELLO'\""
 };
-
-/*
-let punterPuzzleSpec = {
-	number: 31,
-	solveBy: "3 Mar",
-	words: ["JOULE", "JOWLS", "JOKES", "YIKES"],
-	hintSpec: [2, 3, "E"],
-	featuredWordBlurb:
-		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
-};
 */
-/*
+
 let punterPuzzleSpec = {
 	number: 36,
-	solveBy: "10 Mar",
+	solveBy: "3 Mar",
 	words: ["FERRY", "WORRY", "WORLD", "WOWED"],
 	hintSpec: [1, 2, "R"],
 	featuredWordBlurb:
 		"What’s your favourite Bryan FERRY or Roxy Music song? Mine is ‘Avalon’."
+};
+
+/*
+let punterPuzzleSpec = {
+	number: 31,
+	solveBy: "10 Mar",
+	words: ["JOULE", "JOWLS", "JOKES", "YIKES"],
+	hintSpec: [2, 3, "E"],
+	featuredWordBlurb:
+		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
 };
 */
 /*
