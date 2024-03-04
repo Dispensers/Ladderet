@@ -8,7 +8,7 @@ body {
 /*	display:none; */
 /*	z-index:1; */
 	position:absolute;
-	height:365em;
+	height:367em;
 	width:65em;
 	grid-template-rows:
 		[riw-s riwMargin-s riwUkraineFlag-s]
@@ -34,7 +34,7 @@ body {
 		[riwTCInstructions-1-s]
 		1fr
 		[riwTTInstructions-e]
-		8fr
+		10fr
 		[riwTCInstructions-1-e riwTCInstructions-2-s]
 		4fr
 		[riwTCInstructions-2-e riwTCInstructions-3-s]
@@ -195,7 +195,7 @@ body {
 
 #iwSurroundInstructions {
 	width:41em;
-	height:28em;
+	height:30em;
 	grid-row:riwSurroundInstructions-s/riwSurroundInstructions-e;
 	grid-column:ciwSurroundInstructions-s/ciwSurroundInstructions-e;
 }
