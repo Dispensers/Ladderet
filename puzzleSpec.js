@@ -39,7 +39,7 @@ let punterPuzzleSpec = {
 		"\"You say, 'Goodbye' and I say, 'HELLO, HELLO, HELLO'\""
 };
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 36,
 	solveBy: "3 Mar",
@@ -48,26 +48,26 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"What’s your favourite Bryan FERRY or Roxy Music song? Mine is ‘Avalon’."
 };
-
-/*
-let punterPuzzleSpec = {
-	number: 31,
-	solveBy: "10 Mar",
-	words: ["JOULE", "JOWLS", "JOKES", "YIKES"],
-	hintSpec: [2, 3, "E"],
-	featuredWordBlurb:
-		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
-};
 */
-/*
+
 let punterPuzzleSpec = {
 	number: 41,
-	solveBy: "17 Mar",
+	solveBy: "10 Mar",
 	words: ["BITTY", "PETTY", "PETAL", "SEPAL"],
 	hintSpec: [2, 3, "A"],
 	featuredWordBlurb:
 		" A bit of Botany.<br><br>" +
 		"Picture a rosebud. The green casing you see is a calyx. It's divided into segments called SEPALs, which spread out as the flower blooms."
+};
+
+/*
+let punterPuzzleSpec = {
+	number: 31,
+	solveBy: "17 Mar",
+	words: ["JOULE", "JOWLS", "JOKES", "YIKES"],
+	hintSpec: [2, 3, "E"],
+	featuredWordBlurb:
+		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
 };
 */
 /*
