@@ -49,7 +49,7 @@ let punterPuzzleSpec = {
 		"What’s your favourite Bryan FERRY or Roxy Music song? Mine is ‘Avalon’."
 };
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 41,
 	solveBy: "10 Mar",
@@ -59,8 +59,8 @@ let punterPuzzleSpec = {
 		" A bit of Botany.<br><br>" +
 		"Picture a rosebud. The green casing you see is a calyx. It's divided into segments called SEPALs, which spread out as the flower blooms."
 };
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 31,
 	solveBy: "17 Mar",
@@ -69,7 +69,7 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
 };
-*/
+
 /*
 let punterPuzzleSpec = {
 	number: 46,
