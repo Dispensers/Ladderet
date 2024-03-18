@@ -60,7 +60,7 @@ let punterPuzzleSpec = {
 		"Picture a rosebud. The green casing you see is a calyx. It's divided into segments called SEPALs, which spread out as the flower blooms."
 };
 */
-
+/*
 let punterPuzzleSpec = {
 	number: 31,
 	solveBy: "17 Mar",
@@ -69,18 +69,18 @@ let punterPuzzleSpec = {
 	featuredWordBlurb:
 		"JOULE. Erg!! One of those incomprehensible units of measurement physics has dreamed up. That subject is hard work, don't you agree?"
 };
+*/
 
-/*
 let punterPuzzleSpec = {
 	number: 46,
-	solveBy: "24 Mar",
+	solveBy: "5 May",
 	words: ["TANGO", "TABOO", "TABLE", "AMBLE"],
 	hintSpec: [2, 4, "E"],
 	featuredWordBlurb:
 		"TANGO: head snaps, sharp movements, sudden pauses and ‘ganchos’ (leg hooks). Out of Buenos Aires and Montevideo in the 1880s. " +
 		"Many variants now, but Argentine TANGO is still very popular."
 };
-*/
+
 
 /* ================================================================================================================================================================= */
 
