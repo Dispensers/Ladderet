@@ -702,6 +702,7 @@ body {
 
 #mwdCtrlInformation {grid-row:rmwdCtrlTop-s/rmwdCtrlTop-e; grid-column:cmwdCtrlInformation-s/cmwdCtrlInformation-e;}
 #mwdSurroundInformation {
+	z-index:5;
 	width:15em;
 	height:8em;
 	grid-row:rmwdSurroundInformation-s/rmwdSurroundInformation-e;
