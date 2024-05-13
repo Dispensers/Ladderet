@@ -1496,7 +1496,7 @@ configure();
 
 
 /* -------- Preamble -------- */
-
+/*
 async function performPreamble() {
 	infoWall.show();
 
@@ -1538,9 +1538,59 @@ async function performPreamble() {
 	keyboard.enable();
 	disableScrolling();
 }
+*/
+async function performPreamble() {
+	mainWall.showKeyboard();
+	mainWall.show();
+	
+	await wait(1000);
+
+	const surroundInformationRef = document.querySelector("#mwdSurroundInformation");
+	surroundInformationRef.style.display = `block`;
+	await wait(500);
+	surroundInformationRef.style.display = `none`;
+
+	await wait(750);
+
+	keyboard.hide();
+	mainWall.hide();
+	infoWall.show();
+
+	await wait(1500);
+
+	const surroundInstructionsRef = document.querySelector("#iwSurroundInstructions");
+	surroundInstructionsRef.style.display = `block`;
+	await wait(750);
+	surroundInstructionsRef.style.display = `none`;
+
+	await wait(750);
+
+	const separator2Ref = document.querySelector("#iwSeparator-2");
+	separator2Ref.scrollIntoView({behavior: "smooth"});
+
+	await wait(1000);
+	
+	const surroundDemonstrationRef = document.querySelector("#iwdSurroundDemonstration");
+	surroundDemonstrationRef.style.display = `block`;
+	await wait(750);
+	surroundDemonstrationRef.style.display = `none`;
+
+	await wait(1000);
+
+	infoWall.hide();
+	mainWall.showKeyboard();
+	mainWall.show();
+	
+	infoWall.controlBack.unfreeze();
+	infoWall.controlDemo.unfreeze();
+	//punter.solveBiz.unfreeze();
+	punter.solveBiz.wake();
+	keyboard.enable();
+	disableScrolling();
+}
 
 infoWall.controlBack.freeze();
 infoWall.controlDemo.freeze();
-punter.solveBiz.wake();
-punter.solveBiz.freeze();
+//punter.solveBiz.wake();
+//punter.solveBiz.freeze();
 performPreamble();
