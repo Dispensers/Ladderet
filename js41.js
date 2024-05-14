@@ -1,8 +1,18 @@
-/* -------- Window -------- */
+/* -------- Main Window -------- */
 
-console.log(`${window.innerHeight}px`);
-console.log(`${window.innerWidth}px`);
-console.log(`${window.devicePixelRatio}`);
+class MainWindow {
+	constructor() {
+		console.log(`${window.innerHeight}px`);
+		console.log(`${window.innerWidth}px`);
+		console.log(`${window.devicePixelRatio}`);
+		
+		this.innerHeight = window.innerHeight;
+		this.innerWidth = window.innerWidth;
+		this.devicePixelRatio = window.devicePixelRatio;
+	}
+}
+
+let mainWindow = new MainWindow();
 
 
 /* -------- Utility Functions -------- */
@@ -54,7 +64,7 @@ class Published {
 			puzzleRef.type = "button";
 			puzzleRef.style =
 				"margin:0; padding:0.3em 0 0.3em 0; border:none; background-color:transparent; " +
-				"box-sizing:border-box; width:10%; " +
+				"box-sizing:border-box; width:12.5%; " +
 				"font-size:1.7em; text-decoration-line:underline;";
 			if (i == 0) {
 				puzzleRef.style.color = "#551A8B";
@@ -128,12 +138,12 @@ class MainWall {
 		
 		let innerDimension = 0
 		let gridDimension = 0
-		if ((window.innerHeight / mainWallSpec.numGridRows) <= (window.innerWidth / mainWallSpec.numGridColumns)) {
-			innerDimension = window.innerHeight;
+		if ((mainWindow.innerHeight / mainWallSpec.numGridRows) <= (mainWindow.innerWidth / mainWallSpec.numGridColumns)) {
+			innerDimension = mainWindow.innerHeight;
 			gridDimension = mainWallSpec.numGridRows;
 		}
 		else {
-			innerDimension = window.innerWidth;
+			innerDimension = mainWindow.innerWidth;
 			gridDimension = mainWallSpec.numGridColumns;
 		}
 
@@ -142,32 +152,32 @@ class MainWall {
 		let reducingInnerDimension = innerDimension + 1;
 		do {
 			reducingInnerDimension = reducingInnerDimension - 1;
-			fontSize = Math.trunc((reducingInnerDimension / gridDimension) * window.devicePixelRatio) / window.devicePixelRatio;
+			fontSize = Math.trunc((reducingInnerDimension / gridDimension) * mainWindow.devicePixelRatio) / mainWindow.devicePixelRatio;
 			console.log('mw fontSize', fontSize);
 		} while ((innerDimension - (fontSize * gridDimension)) < (2 * percent));
 		console.log('mw final fontSize', fontSize);
 		this.wallRef.style.fontSize = `${fontSize}px`;
 		this.fontSize = fontSize;
 		
-		const spareHeight = window.innerHeight - (this.fontSize * mainWallSpec.numGridRows);
+		const spareHeight = mainWindow.innerHeight - (this.fontSize * mainWallSpec.numGridRows);
 		console.log('mw spareHeight', spareHeight);
-		const deviceSpareHeight = spareHeight * window.devicePixelRatio;
+		const deviceSpareHeight = spareHeight * mainWindow.devicePixelRatio;
 		console.log('mw deviceSpareHeight', deviceSpareHeight);
 		const roundedDeviceSpareHeight = Math.trunc(deviceSpareHeight / 2) * 2;
 		console.log('mw roundedDeviceSpareHeight', roundedDeviceSpareHeight);
-		const roundedSpareHeight = roundedDeviceSpareHeight / window.devicePixelRatio;
+		const roundedSpareHeight = roundedDeviceSpareHeight / mainWindow.devicePixelRatio;
 		console.log('mw roundedSpareHeight', roundedSpareHeight);
 		this.topPosition = roundedSpareHeight / 2;
 		this.wallRef.style.top = `${this.topPosition}px`;
 
 		this.width = this.fontSize * mainWallSpec.numGridColumns
-		const spareWidth = window.innerWidth - this.width;
+		const spareWidth = mainWindow.innerWidth - this.width;
 		console.log('mw spareWidth', spareWidth);
-		const deviceSpareWidth = spareWidth * window.devicePixelRatio;
+		const deviceSpareWidth = spareWidth * mainWindow.devicePixelRatio;
 		console.log('mw deviceSpareWidth', deviceSpareWidth);
 		const roundedDeviceSpareWidth = Math.trunc(deviceSpareWidth / 2) * 2;
 		console.log('mw roundedDeviceSpareWidth', roundedDeviceSpareWidth);
-		const roundedSpareWidth = roundedDeviceSpareWidth / window.devicePixelRatio;
+		const roundedSpareWidth = roundedDeviceSpareWidth / mainWindow.devicePixelRatio;
 		console.log('mw roundedSpareWidth', roundedSpareWidth);
 		this.leftPosition = roundedSpareWidth / 2;
 		this.wallRef.style.left = `${this.leftPosition}px`;
@@ -314,18 +324,18 @@ class Keyboard {
 		const numLetters = 13
 		const minSpareHeight = 10;
 		
-		const fontSize = Math.trunc(((window.innerHeight - minSpareHeight) / numLetters) * window.devicePixelRatio) / window.devicePixelRatio;
+		const fontSize = Math.trunc(((mainWindow.innerHeight - minSpareHeight) / numLetters) * mainWindow.devicePixelRatio) / mainWindow.devicePixelRatio;
 		console.log('kb fontSize', fontSize);
 		this.leftRef.style.fontSize = `${fontSize}px`;
 		this.rightRef.style.fontSize = `${fontSize}px`;
 
-		const spareHeight = window.innerHeight - (fontSize * numLetters);
+		const spareHeight = mainWindow.innerHeight - (fontSize * numLetters);
 		console.log('kb spareHeight', spareHeight);
-		const deviceSpareHeight = spareHeight * window.devicePixelRatio;
+		const deviceSpareHeight = spareHeight * mainWindow.devicePixelRatio;
 		console.log('kb deviceSpareHeight', deviceSpareHeight);
 		const roundedDeviceSpareHeight = Math.trunc(deviceSpareHeight / 2) * 2;
 		console.log('kb roundedDeviceSpareHeight', roundedDeviceSpareHeight);
-		const roundedSpareHeight = roundedDeviceSpareHeight / window.devicePixelRatio;
+		const roundedSpareHeight = roundedDeviceSpareHeight / mainWindow.devicePixelRatio;
 		console.log('kb roundedSpareHeight', roundedSpareHeight);
 		this.mainTopPosition = roundedSpareHeight / 2;
 		
@@ -1475,17 +1485,17 @@ function configure() {
 
 
 function reconfigure(punterPuzzle) {
-	keyboard.deconstruct();
-	demo.deconstruct();
+	//keyboard.deconstruct();
+	//demo.deconstruct();
 	infoWall.deconstruct();
 	punter.deconstruct();
-	mainWall.deconstruct();
-	mainWall = new MainWall(mainWallSpec);
+	//mainWall.deconstruct();
+	//mainWall = new MainWall(mainWallSpec);
 	punter = new Punter(punterPuzzle);
 	infoWall = new InfoWall(mainWall.topPosition, mainWall.leftPosition, mainWall.fontSize, punterPuzzle);
-	demo = new Demo();		
-	keyboard = new Keyboard(mainWall.leftPosition, mainWall.leftPosition + mainWall.width);
-	mainWall.addKeyboard();
+	//demo = new Demo();		
+	//keyboard = new Keyboard(mainWall.leftPosition, mainWall.leftPosition + mainWall.width);
+	//mainWall.addKeyboard();
 }
 
 
