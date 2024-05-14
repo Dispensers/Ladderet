@@ -225,9 +225,10 @@ class MainWall {
 
 function backOnClick() {
 	infoWall.hide();
-	disableScrolling();
+	//disableScrolling();
 	mainWall.restoreKeyboardState();
 	mainWall.show();
+	disableScrolling();
 	}
 
 function demonstrationOnClick () {
