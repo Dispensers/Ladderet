@@ -1,12 +1,88 @@
 let puzzleSpecs = [
+/*
+	{
+		number: 47,
+		publishedOn: "dd Mmm 24",
+		words: ["LAPEL", "LOPES", "POLES", "POLKA"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"POLKA.<br>Basic move: three quick steps and a hop. You cover a lot of ground, so practise in the garden!<br><br>" +
+			"Not from Polska (Poland), but Bohemia (now in Czech Rep).<br><br>Complete this: \“Itsy …\”"
+	},
+	{
+		number: 12,
+		publishedOn: "dd Mmm 24",
+		words: ["CARRY", "DAIRY", "DEITY", "DELTA"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"DELTA is the fourth letter of the Greek alphabet - uppercase Δ, lowercase δ. It gives us our D.<br><br>" +
+			"A river delta is so named because its shape approximates to the letter’s triangular uppercase form."
+	},
+	{
+		number: 42,
+		publishedOn: "dd Mmm 24",
+		words: ["MUNCH", "DUNCE", "DEUCE", "DRUPE"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"DRUPE.<br>What a peach of a word! Well, a peach is a DRUPE, so it’s what you’d expect!<br><br>" +
+			"A fruit with juicy flesh around a stone encasing a single seed.<br><br>The cherry is my pick of the bunch."
+	},
+	{
+		number: 37,
+		publishedOn: "dd Mmm 24",
+		words: ["COXED", "NOTED", "NOTCH", "KETCH"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"Q: What’s the difference between a KETCH and a yawl?<br>" +
+			"A: They both have two masts: a big one up front and a small one behind. But, on a yawl, the small one is way behind. Don't forget, now! "
+	},
+	{
+		number: 27,
+		publishedOn: "dd Mmm 24",
+		words: ["GLOVE", "ALIVE", "ALIEN", "ADIEU"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"ADIEU is a favoured first guess for Wordle.<br><br>" +
+			"Do say \‘I bid you ADIEU\’; don’t say \‘Without further ADIEU\’!"
+	},
+	{
+		number: 32,
+		publishedOn: "dd Mmm 24",
+		words: ["GIANT", "MEANT", "MEATY", "JETTY"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"JETTY.<br>A structure that is \‘thrown\’ out. From the French verb jeter, \'to throw\’. Down to one meaning nowadays. " +
+			"There were two; the other one was \‘a projecting upper storey of a house\’."
+	},
+	{
+		number: 22,
+		publishedOn: "dd Mmm 24",
+		words: ["ABETS", "AREAS", "CREAK", "CROOK"],
+		hintSpec: [2, 4, "E"],
+		featuredWordBlurb:
+			"The Mother of all Baddies: ABETS?"
+	},
+*/
+	{
+		number: 17,
+		publishedOn: "3 Jun 24",
+		words: ["BEIGE", "FEIGN", "FELON", "FUTON"],
+		hintSpec: [1, 1, "E"],
+		featuredWordBlurb:
+			"\"He could at least have chosen a different colour: the beige should not wear beige.\" <br>From Bodily Harm by Margaret Atwood."
+	},
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------	
+	
 	{
 		number: 46,
 		publishedOn: "18 Mar 24",
 		words: ["TANGO", "TABOO", "TABLE", "AMBLE"],
 		hintSpec: [2, 4, "E"],
 		featuredWordBlurb:
-		"TANGO: head snaps, sharp movements, sudden pauses and ‘ganchos’ (leg hooks). Out of Buenos Aires and Montevideo in the 1880s. " +
-		"Many variants now, but Argentine TANGO is still very popular."
+			"TANGO: head snaps, sharp movements, sudden pauses and ‘ganchos’ (leg hooks). Out of Buenos Aires and Montevideo in the 1880s. " +
+			"Many variants now, but Argentine TANGO is still very popular."
 	},
 	{
 		number: 31,
