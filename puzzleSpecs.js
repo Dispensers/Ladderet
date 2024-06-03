@@ -69,7 +69,7 @@ let puzzleSpecs = [
 		words: ["BEIGE", "FEIGN", "FELON", "FUTON"],
 		hintSpec: [1, 1, "E"],
 		featuredWordBlurb:
-			"\"He could at least have chosen a different colour: the beige should not wear beige.\" <br>From Bodily Harm by Margaret Atwood."
+			"\"He could at least have chosen a different colour: the BEIGE should not wear BEIGE.\" <br>From Bodily Harm by Margaret Atwood."
 	},
 
 
