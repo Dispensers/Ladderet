@@ -54,15 +54,15 @@ let puzzleSpecs = [
 			"JETTY.<br>A structure that is \‘thrown\’ out. From the French verb jeter, \'to throw\’. Down to one meaning nowadays. " +
 			"There were two; the other one was \‘a projecting upper storey of a house\’."
 	},
+*/
 	{
 		number: 22,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "10 Jun 24",
 		words: ["ABETS", "AREAS", "CREAK", "CROOK"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [1, 2, "E"],
 		featuredWordBlurb:
 			"The Mother of all Baddies: ABETS?"
 	},
-*/
 	{
 		number: 17,
 		publishedOn: "3 Jun 24",
