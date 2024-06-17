@@ -45,16 +45,16 @@ let puzzleSpecs = [
 			"ADIEU is a favoured first guess for Wordle.<br><br>" +
 			"Do say \‘I bid you ADIEU\’; don’t say \‘Without further ADIEU\’!"
 	},
+*/
 	{
 		number: 32,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "17 Jun 24",
 		words: ["GIANT", "MEANT", "MEATY", "JETTY"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [2, 3, "T"],
 		featuredWordBlurb:
 			"JETTY.<br>A structure that is \‘thrown\’ out. From the French verb jeter, \'to throw\’. Down to one meaning nowadays. " +
 			"There were two; the other one was \‘a projecting upper storey of a house\’."
 	},
-*/
 	{
 		number: 22,
 		publishedOn: "10 Jun 24",
