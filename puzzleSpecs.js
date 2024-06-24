@@ -36,16 +36,16 @@ let puzzleSpecs = [
 			"Q: What’s the difference between a KETCH and a yawl?<br>" +
 			"A: They both have two masts: a big one up front and a small one behind. But, on a yawl, the small one is way behind. Don't forget, now! "
 	},
+*/
 	{
 		number: 27,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "24 Jun 24",
 		words: ["GLOVE", "ALIVE", "ALIEN", "ADIEU"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [1, 4, "E"],
 		featuredWordBlurb:
 			"ADIEU is a favoured first guess for Wordle.<br><br>" +
 			"Do say \‘I bid you ADIEU\’; don’t say \‘Without further ADIEU\’!"
 	},
-*/
 	{
 		number: 32,
 		publishedOn: "17 Jun 24",
