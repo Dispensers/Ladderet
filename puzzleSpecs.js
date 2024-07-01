@@ -27,16 +27,16 @@ let puzzleSpecs = [
 			"DRUPE.<br>What a peach of a word! Well, a peach is a DRUPE, so it’s what you’d expect!<br><br>" +
 			"A fruit with juicy flesh around a stone encasing a single seed.<br><br>The cherry is my pick of the bunch."
 	},
+*/
 	{
 		number: 37,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "1 Jul 24",
 		words: ["COXED", "NOTED", "NOTCH", "KETCH"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [1, 3, "E"],
 		featuredWordBlurb:
 			"Q: What’s the difference between a KETCH and a yawl?<br>" +
 			"A: They both have two masts: a big one up front and a small one behind. But, on a yawl, the small one is way behind. Don't forget, now! "
 	},
-*/
 	{
 		number: 27,
 		publishedOn: "24 Jun 24",
