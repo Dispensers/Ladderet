@@ -18,16 +18,16 @@ let puzzleSpecs = [
 			"DELTA is the fourth letter of the Greek alphabet - uppercase Δ, lowercase δ. It gives us our D.<br><br>" +
 			"A river delta is so named because its shape approximates to the letter’s triangular uppercase form."
 	},
+*/
 	{
 		number: 42,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "8 Jul 24",
 		words: ["MUNCH", "DUNCE", "DEUCE", "DRUPE"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [1, 2, "N"],
 		featuredWordBlurb:
 			"DRUPE.<br>What a peach of a word! Well, a peach is a DRUPE, so it’s what you’d expect!<br><br>" +
 			"A fruit with juicy flesh around a stone encasing a single seed.<br><br>The cherry is my pick of the bunch."
 	},
-*/
 	{
 		number: 37,
 		publishedOn: "1 Jul 24",
