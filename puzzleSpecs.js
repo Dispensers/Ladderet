@@ -9,16 +9,16 @@ let puzzleSpecs = [
 			"POLKA.<br>Basic move: three quick steps and a hop. You cover a lot of ground, so practise in the garden!<br><br>" +
 			"Not from Polska (Poland), but Bohemia (now in Czech Rep).<br><br>Complete this: \“Itsy …\”"
 	},
+*/
 	{
 		number: 12,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "15 Jul 24",
 		words: ["CARRY", "DAIRY", "DEITY", "DELTA"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [2, 3, "T"],
 		featuredWordBlurb:
 			"DELTA is the fourth letter of the Greek alphabet - uppercase Δ, lowercase δ. It gives us our D.<br><br>" +
 			"A river delta is so named because its shape approximates to the letter’s triangular uppercase form."
 	},
-*/
 	{
 		number: 42,
 		publishedOn: "8 Jul 24",
