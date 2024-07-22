@@ -1,15 +1,13 @@
 let puzzleSpecs = [
-/*
 	{
 		number: 47,
-		publishedOn: "dd Mmm 24",
+		publishedOn: "22 Jul 24",
 		words: ["LAPEL", "LOPES", "POLES", "POLKA"],
-		hintSpec: [2, 4, "E"],
+		hintSpec: [2, 2, "L"],
 		featuredWordBlurb:
 			"POLKA.<br>Basic move: three quick steps and a hop. You cover a lot of ground, so practise in the garden!<br><br>" +
 			"Not from Polska (Poland), but Bohemia (now in Czech Rep).<br><br>Complete this: \“Itsy …\”"
 	},
-*/
 	{
 		number: 12,
 		publishedOn: "15 Jul 24",
